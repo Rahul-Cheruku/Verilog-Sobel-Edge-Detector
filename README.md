@@ -13,7 +13,8 @@ The x-coordinate is defined here as increasing in the "right"-direction, and the
 
 Using this information, we can also calculate the gradient's direction:
 
-![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/56299efe-4d89-48bd-9672-682700dedf2b)
+![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/387e744b-8c6d-4996-af66-93ae8995994a)
+
 
 ## Filtering Window
 
