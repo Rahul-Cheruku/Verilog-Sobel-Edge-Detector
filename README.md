@@ -28,6 +28,8 @@ Using this information, we can also calculate the gradient's direction:
 
 ![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/2ca450c9-4d53-48f1-9547-c690ba4eeb22)
 
+<pre>
+
 Max Delay Paths
 --------------------------------------------------------------------------------------
 Slack:                    inf
@@ -53,6 +55,8 @@ Slack:                    inf
 | F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
 +-------------------------+------+-------+------------+-----------+-------+
 * Warning! LUT value is adjusted to account for LUT combining.
+
+</pre>
 
 ## Custom MAC 
 ![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/eb0cdd44-f5a2-4eee-9cf0-8bba45de7f6a)
