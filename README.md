@@ -22,7 +22,7 @@ Using this information, we can also calculate the gradient's direction:
 
 ![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/15820f75-219a-49b4-adec-4f6ea8aa260e)
 
-# Reports/Observations:
+# Reports/Observations (Implemented on Digilent Basys 3 Artix-7 Fpga Trainer Board):
 
 ![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/407bee55-0150-4f28-9126-44016952226e)
 
