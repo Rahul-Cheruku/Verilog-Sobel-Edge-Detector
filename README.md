@@ -22,6 +22,46 @@ Using this information, we can also calculate the gradient's direction:
 
 ![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/15820f75-219a-49b4-adec-4f6ea8aa260e)
 
+# Reports/Observations:
+
+![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/407bee55-0150-4f28-9126-44016952226e)
+
+![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/2ca450c9-4d53-48f1-9547-c690ba4eeb22)
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 Bi22[0]
+                            (input port)
+  Destination:            fil_out[5]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        22.873ns  (logic 9.030ns (39.480%)  route 13.843ns (60.520%))
+  Logic Levels:           20  (CARRY4=9 IBUF=1 LUT4=2 LUT5=6 LUT6=1 OBUF=1)
+
++-------------------------+------+-------+------------+-----------+-------+
+|        Site Type        | Used | Fixed | Prohibited | Available | Util% |
++-------------------------+------+-------+------------+-----------+-------+
+| Slice LUTs              |   87 |     0 |          0 |     20800 |  0.42 |
+|   LUT as Logic          |   87 |     0 |          0 |     20800 |  0.42 |
+|   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
+| Slice Registers         |    0 |     0 |          0 |     41600 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |          0 |     41600 |  0.00 |
+|   Register as Latch     |    0 |     0 |          0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
++-------------------------+------+-------+------------+-----------+-------+
+* Warning! LUT value is adjusted to account for LUT combining.
+
+## Custom MAC 
+![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/eb0cdd44-f5a2-4eee-9cf0-8bba45de7f6a)
+
+## MAC configs:
+
+![image](https://github.com/Rahul-Cheruku/Verilog-Sobel-Edge-Detector/assets/77064752/f65233e9-af74-4e60-a5d5-ce27c37ca9de)
+
+
 
  
 
